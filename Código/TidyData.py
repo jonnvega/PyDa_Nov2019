@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 ruta  = "Copia_de_SociedadesMorosasIPJ2017_2018_2019_al_26022019.xlsx" #ruta del archivo
-
 morosos = pd.read_excel(ruta)
 
 morosos.shape #tamaño del conjunto de datos 
